@@ -1,0 +1,43 @@
+{
+  "name": "@next-ts-cloudfront-ssg-with-backend-template/frontend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "format-check": "rome format src",
+    "format": "rome format --write src",
+    "check": "rome check src",
+    "check-fix": "rome check --apply-suggested src",
+    "lint": "pnpm format-check && pnpm check",
+    "lint-fix": "pnpm format && pnpm check-fix",
+    "clean": "rimraf build",
+    "pretest": "pnpm build",
+    "prelint": "pnpm install",
+    "prelint-fix": "pnpm install",
+    "prebuild": "pnpm lint",
+    "preexport": "pnpm build",
+    "predev": "pnpm install",
+    "all": "pnpm build && pnpm export"
+  },
+  "dependencies": {
+    "@next/font": "^13",
+    "@types/node": "*",
+    "@types/react": "*",
+    "next": "^13",
+    "react": "*",
+    "react-dom": "*",
+    "typescript": "*",
+    "web-vitals": "*"
+  },
+  "devDependencies": {
+    "@swc/cli": "*",
+    "@swc/core": "*",
+    "@swc/helpers": "*",
+    "regenerator-runtime": "*",
+    "rimraf": "*",
+    "rome": "*"
+  }
+}

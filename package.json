@@ -1,0 +1,21 @@
+{
+  "name": "next-ts-cloudfront-ssg-with-backend-template",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint-fix": "pnpm -r lint-fix",
+    "prelint-fix": "pnpm -r install",
+    "prebuild": "pnpm -r install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@7.26.3",
+  "engines": {
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!",
+    "pnpm": ">=7.26.3"
+  }
+}

@@ -1,0 +1,57 @@
+name: Build and Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use install pnpm
+      run: |
+        corepack enable && \
+        corepack prepare pnpm@7.26.3 --activate
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3.6.0
+      with:
+        node-version: ${{ matrix.node-version }}
+        check-latest: true
+        cache: pnpm
+        cache-dependency-path:  |
+          pnpm-lock.yaml
+          backend/pnpm-lock.yaml
+          frontend/pnpm-lock.yaml
+          frontend/cdk/pnpm-lock.yaml
+
+    - name: Get pnpm store directory
+      id: pnpm-cache
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+    - uses: actions/cache@v3
+      name: Setup pnpm cache
+      with:
+        path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
+
+    - name: Build
+      env:
+        CI: true
+      run: pnpm build

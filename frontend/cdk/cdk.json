@@ -1,0 +1,24 @@
+{
+  "app": "pnpm lint && npx ts-node --prefer-ts-exts bin/cloudfront-s3-cdn.ts",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "tsconfig.json",
+      "package*.json",
+      "yarn.lock",
+      "node_modules",
+      "test"
+    ]
+  },
+  "requireApproval": "never",
+  "context": {
+    "dev": {
+    }
+  }
+}

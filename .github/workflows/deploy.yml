@@ -1,0 +1,115 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+    - main
+
+  workflow_dispatch:
+
+env:
+  OIDC_IAM_ROLE_ARN: ${{ secrets.OIDC_IAM_ROLE_ARN }}
+  AWS_REGION: us-west-2
+  APP_NAME: next-ts-cloudfront-ssg-with-backend-template
+  API_ENDPOINT_URL_PARAM: /next-ts-cloudfront-ssg-with-backend-template/API_ENDPOINT
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.runnable-check.outputs.skip }}
+    steps:
+    - name: Check runnable
+      id: runnable-check
+      run: |
+        if [ -z "${{ env.OIDC_IAM_ROLE_ARN }}" ]; then
+          echo "skip=true" >> $GITHUB_OUTPUT
+        else
+          echo "skip=false" >> $GITHUB_OUTPUT
+        fi
+
+  deploy:
+    needs: [prepare]
+
+    if: needs.setup.outputs.skip != 'true'
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    runs-on: ubuntu-latest
+    steps:
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        role-to-assume: ${{ env.OIDC_IAM_ROLE_ARN }}
+        role-session-name: GitHubActions
+        aws-region: ${{ env.AWS_REGION }}
+
+    - uses: actions/checkout@v3
+
+    - name: Use install pnpm
+      shell: bash
+      run: |
+        corepack enable && \
+        corepack prepare pnpm@7.26.3 --activate
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3.6.0
+      with:
+        node-version: ${{ matrix.node-version }}
+        check-latest: true
+        cache: pnpm
+        cache-dependency-path: |
+          pnpm-lock.yaml
+          backend/pnpm-lock.yaml
+          frontend/pnpm-lock.yaml
+          frontend/cdk/pnpm-lock.yaml
+
+    - name: Get pnpm store directory
+      id: pnpm-cache
+      shell: bash
+      run: |
+        echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+    - uses: actions/cache@v3
+      name: Setup pnpm cache
+      with:
+        path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-store-
+
+    - name: Setup global dir for pnpm
+      shell: bash
+      run: |
+        echo "PNPM_HOME=/usr/local/bin" >> $GITHUB_ENV
+
+    - name: Install global packages
+      run: |
+        pnpm add -g aws-cdk
+
+    - name: deploy (cdk)
+      working-directory: backend
+      run: |
+        cdk deploy \
+          -c appkName=${{ env.APP_NAME }}\
+          -c parameterName=${{ env.API_ENDPOINT_URL_PARAM }}
+
+    - name: Get Parameters
+      uses: poad/get-aws-ssm-parameter@v1.0.0
+      id: get-param
+      with:
+        parameter-name: ${{ env.API_ENDPOINT_URL_PARAM }}
+        aws-region: us-west-2
+
+    - name: deploy (frontend)
+      working-directory: frontend/cdk
+      run: |
+        cdk deploy \
+          -c appkName=${{ env.APP_NAME }}\
+          -c apiUrl=${{ steps.get-param.outputs.value }}

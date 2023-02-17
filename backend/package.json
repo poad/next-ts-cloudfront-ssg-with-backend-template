@@ -1,0 +1,46 @@
+{
+  "name": "@next-ts-cloudfront-ssg-with-backend-template/backend",
+  "version": "0.1.0",
+  "bin": {
+    "backend": "bin/backend.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "format-check": "rome format bin lib lambda",
+    "format": "rome format --write bin lib lambda",
+    "check": "rome check bin lib lambda",
+    "check-fix": "rome check --apply-suggested bin lib lambda",
+    "lint": "pnpm format-check && pnpm check",
+    "lint-fix": "pnpm format && pnpm check-fix",
+    "clean": "rimraf build",
+    "prelint": "pnpm install",
+    "prelint-fix": "pnpm install",
+    "prebuild": "pnpm lint"
+  },
+  "devDependencies": {
+    "@swc/cli": "*",
+    "@swc/core": "*",
+    "@swc/helpers": "*",
+    "@types/aws-lambda": "*",
+    "@types/node": "*",
+    "@types/qs": "*",
+    "aws-cdk": "*",
+    "esbuild": "*",
+    "regenerator-runtime": "*",
+    "rome": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "*",
+    "aws-lambda": "*",
+    "constructs": "*",
+    "graphql": "*",
+    "graphql-request": "*",
+    "cross-fetch": "*",
+    "qs": "*",
+    "source-map-support": "*"
+  }
+}
