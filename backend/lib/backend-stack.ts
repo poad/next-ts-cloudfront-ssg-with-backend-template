@@ -93,15 +93,6 @@ export class BackendStack extends cdk.Stack {
 
     api.root.addMethod('POST', new apigateway.LambdaIntegration(fn));
 
-    new apigateway.GatewayResponse(this, 'UnauthorizedGatewayResponse', {
-      restApi: api,
-      type: apigateway.ResponseType.UNAUTHORIZED,
-      statusCode: '401',
-      responseHeaders: {
-        'Access-Control-Allow-Origin': "'*'",
-      },
-    });
-
     new apigateway.GatewayResponse(this, 'ClientErrorGatewayResponse', {
       restApi: api,
       type: apigateway.ResponseType.DEFAULT_4XX,
