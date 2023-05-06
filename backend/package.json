@@ -1,6 +1,6 @@
 {
   "name": "@next-ts-cloudfront-ssg-with-backend-template/backend",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "bin": {
     "backend": "bin/backend.js"
   },
@@ -11,7 +11,7 @@
     "format-check": "rome format bin lib lambda",
     "format": "rome format --write bin lib lambda",
     "check": "rome check bin lib lambda",
-    "check-fix": "rome check --apply-suggested bin lib lambda",
+    "check-fix": "rome check --apply-unsafe bin lib lambda",
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "clean": "rimraf build",
@@ -37,9 +37,9 @@
     "aws-cdk-lib": "*",
     "aws-lambda": "*",
     "constructs": "*",
+    "cross-fetch": "*",
     "graphql": "*",
     "graphql-request": "*",
-    "cross-fetch": "*",
     "qs": "*",
     "source-map-support": "*"
   }

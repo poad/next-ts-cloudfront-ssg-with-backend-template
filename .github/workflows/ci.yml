@@ -15,7 +15,7 @@ jobs:
   test:
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [18.x, 20.x]
 
     runs-on: ubuntu-latest
     steps:
@@ -24,7 +24,7 @@ jobs:
     - name: Use install pnpm
       run: |
         corepack enable && \
-        corepack prepare pnpm@7.26.3 --activate
+        corepack prepare pnpm@8.4.0 --activate
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3.6.0
@@ -34,9 +34,9 @@ jobs:
         cache: pnpm
         cache-dependency-path:  |
           pnpm-lock.yaml
-          backend/pnpm-lock.yaml
           frontend/pnpm-lock.yaml
           frontend/cdk/pnpm-lock.yaml
+          backend/pnpm-lock.yaml
 
     - name: Get pnpm store directory
       id: pnpm-cache
@@ -50,6 +50,11 @@ jobs:
         key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
+
+    - name: install
+      env:
+        CI: true
+      run: pnpm -r install --no-frozen-lockfile
 
     - name: Build
       env:

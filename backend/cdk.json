@@ -1,5 +1,5 @@
 {
-  "app": "pnpm lint && npx npx ts-node --prefer-ts-exts bin/backend.ts",
+  "app": "pnpm dlx ts-node --prefer-ts-exts bin/backend.ts",
   "watch": {
     "include": [
       "**"

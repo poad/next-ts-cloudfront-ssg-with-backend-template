@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
+    "export": "next build",
     "start": "next start",
     "format-check": "rome format src",
     "format": "rome format --write src",
@@ -18,12 +18,10 @@
     "prelint": "pnpm install",
     "prelint-fix": "pnpm install",
     "prebuild": "pnpm lint",
-    "preexport": "pnpm build",
     "predev": "pnpm install",
-    "all": "pnpm build && pnpm export"
+    "all": "pnpm build"
   },
   "dependencies": {
-    "@next/font": "^13",
     "@types/node": "*",
     "@types/react": "*",
     "next": "^13",
