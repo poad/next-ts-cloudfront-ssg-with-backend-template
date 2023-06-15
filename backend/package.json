@@ -20,27 +20,27 @@
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
-    "@swc/cli": "*",
-    "@swc/core": "*",
-    "@swc/helpers": "*",
-    "@types/aws-lambda": "*",
-    "@types/node": "*",
-    "@types/qs": "*",
-    "aws-cdk": "*",
-    "esbuild": "*",
-    "regenerator-runtime": "*",
-    "rome": "*",
-    "ts-node": "*",
-    "typescript": "*"
+    "@swc/cli": "^0.1.62",
+    "@swc/core": "^1.3.64",
+    "@swc/helpers": "^0.5.1",
+    "@types/aws-lambda": "^8.10.119",
+    "@types/node": "^20.3.1",
+    "@types/qs": "^6.9.7",
+    "aws-cdk": "^2.84.0",
+    "esbuild": "^0.18.3",
+    "regenerator-runtime": "^0.13.11",
+    "rome": "^12.1.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
   },
   "dependencies": {
-    "aws-cdk-lib": "*",
-    "aws-lambda": "*",
-    "constructs": "*",
-    "cross-fetch": "*",
-    "graphql": "*",
-    "graphql-request": "*",
-    "qs": "*",
-    "source-map-support": "*"
+    "aws-cdk-lib": "^2.84.0",
+    "aws-lambda": "^1.0.7",
+    "constructs": "^10.2.52",
+    "cross-fetch": "^3.1.6",
+    "graphql": "^16.6.0",
+    "graphql-request": "^6.1.0",
+    "qs": "^6.11.2",
+    "source-map-support": "^0.5.21"
   }
 }
