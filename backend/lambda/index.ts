@@ -1,6 +1,6 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from 'aws-lambda';
 import * as qs from 'qs';
-import fetch from 'cross-fetch';
+import fetch from 'node-fetch';
 import { GraphQLError } from 'graphql';
 import { gql, GraphQLClient } from 'graphql-request';
 
