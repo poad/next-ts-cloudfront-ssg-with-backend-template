@@ -21,14 +21,12 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-
     - uses: pnpm/action-setup@v2
       name: Install pnpm
       id: pnpm-install
       with:
-        version: 8.6.10
         run_install: |
-          - recursive: false
+          - recursive: true
             args: [--no-frozen-lockfile]
 
     - name: Use Node.js ${{ matrix.node-version }}
@@ -42,24 +40,6 @@ jobs:
           frontend/pnpm-lock.yaml
           frontend/cdk/pnpm-lock.yaml
           backend/pnpm-lock.yaml
-
-    - name: Get pnpm store directory
-      id: pnpm-cache
-      shell: bash
-      run: |
-        echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
-    - uses: actions/cache@v3
-      name: Setup pnpm cache
-      with:
-        path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-        key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-        restore-keys: |
-          ${{ runner.os }}-pnpm-store-
-
-    - name: install
-      env:
-        CI: true
-      run: pnpm -r install --no-frozen-lockfile
 
     - name: Build
       env:
