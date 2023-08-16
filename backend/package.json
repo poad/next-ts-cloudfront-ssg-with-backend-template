@@ -26,7 +26,7 @@
     "@types/aws-lambda": "^8.10.119",
     "@types/node": "^20.5.0",
     "@types/qs": "^6.9.7",
-    "aws-cdk": "^2.91.0",
+    "aws-cdk": "^2.92.0",
     "esbuild": "^0.19.2",
     "regenerator-runtime": "^0.14.0",
     "rome": "^12.1.3",
