@@ -35,7 +35,7 @@ jobs:
   deploy:
     needs: [prepare]
 
-    if: needs.setup.outputs.skip != 'true'
+    if: needs.prepare.outputs.skip != 'true'
 
     strategy:
       matrix:
