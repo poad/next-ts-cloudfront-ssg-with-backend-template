@@ -31,6 +31,10 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      nextjs:
+        patterns:
+          - '*'
 
   - package-ecosystem: npm
     directory: '/backend/'
@@ -42,3 +46,7 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      cdk:
+        patterns:
+          - '*'
