@@ -7,13 +7,13 @@ settings:
 dependencies:
   aws-cdk-lib:
     specifier: ^2.93.0
-    version: 2.93.0(constructs@10.2.69)
+    version: 2.93.0(constructs@10.2.70)
   aws-lambda:
     specifier: ^1.0.7
     version: 1.0.7
   constructs:
-    specifier: ^10.2.69
-    version: 10.2.69
+    specifier: ^10.2.70
+    version: 10.2.70
   graphql:
     specifier: ^16.8.0
     version: 16.8.0
@@ -668,7 +668,7 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /aws-cdk-lib@2.93.0(constructs@10.2.69):
+  /aws-cdk-lib@2.93.0(constructs@10.2.70):
     resolution: {integrity: sha512-kKbcKkts272Ju5xjGKI3pXTOpiJxW4OQbDF8Vmw/NIkkuJLo8GlRCFfeOfoN/hilvlYQgENA67GCgSWccbvu7w==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -679,7 +679,7 @@ packages:
       '@aws-cdk/asset-node-proxy-agent-v6': 2.0.1
       '@balena/dockerignore': 1.0.2
       case: 1.6.3
-      constructs: 10.2.69
+      constructs: 10.2.70
       fs-extra: 11.1.1
       ignore: 5.2.4
       jsonschema: 1.4.1
@@ -713,14 +713,14 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
     dependencies:
-      aws-sdk: 2.1446.0
+      aws-sdk: 2.1447.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.0
     dev: false
 
-  /aws-sdk@2.1446.0:
-    resolution: {integrity: sha512-QaIyQz9csPSgujM+asHNWHh6uw1FDh+SxpUERLbePDYwqycQha/0BkOxTciGh/Jhp26tKMnHL7rwrYl37H6RYA==}
+  /aws-sdk@2.1447.0:
+    resolution: {integrity: sha512-7Z0VMwD679OCjZCgNbRnA0ZNxfpT8zSrI9PQXu9J0uwV7xAAfaRk3nKFpOgvobUkOXszlBiYdVubhbaHOzITtA==}
     engines: {node: '>= 10.0.0'}
     dependencies:
       buffer: 4.9.2
@@ -854,8 +854,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: false
 
-  /constructs@10.2.69:
-    resolution: {integrity: sha512-0AiM/uQe5Uk6JVe/62oolmSN2MjbFQkOlYrM3fFGZLKuT+g7xlAI10EebFhyCcZwI2JAcWuWCmmCAyCothxjuw==}
+  /constructs@10.2.70:
+    resolution: {integrity: sha512-z6zr1E8K/9tzJbCQzY0UGX0/oVKPFKu9C/mzEnghCG6TAJINnvlq0CMKm63XqqeMleadZYm5T3sZGJKcxJS/Pg==}
     engines: {node: '>= 16.14.0'}
     dev: false
 
