@@ -66,24 +66,7 @@ jobs:
       uses: actions/setup-node@v3.8.1
       with:
         node-version: ${{ matrix.node-version }}
-        check-latest: true
-        cache: pnpm
-        cache-dependency-path:  |
-          pnpm-lock.yaml
-          frontend/pnpm-lock.yaml
-          frontend/cdk/pnpm-lock.yaml
-          backend/pnpm-lock.yaml
-
-    - name: Setup global dir for pnpm
-      shell: bash
-      run: |
-        echo "PNPM_HOME=/usr/local/bin" >> $GITHUB_ENV
-
-    - name: install
-      env:
-        CI: true
-      run: pnpm -r install --no-frozen-lockfile
-  
+        check-latest: true  
   
     - name: deploy (cdk)
       working-directory: backend
