@@ -48,8 +48,8 @@ importers:
         specifier: ^0.5.2
         version: 0.5.2
       '@types/aws-lambda':
-        specifier: ^8.10.119
-        version: 8.10.119
+        specifier: ^8.10.120
+        version: 8.10.120
       '@types/node':
         specifier: ^20.6.0
         version: 20.6.0
@@ -773,8 +773,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@types/aws-lambda@8.10.119:
-    resolution: {integrity: sha512-Vqm22aZrCvCd6I5g1SvpW151jfqwTzEZ7XJ3yZ6xaZG31nUEOEyzzVImjRcsN8Wi/QyPxId/x8GTtgIbsy8kEw==}
+  /@types/aws-lambda@8.10.120:
+    resolution: {integrity: sha512-ReLUWj/2EYNx7qs17bkBkgSmr0jB1GGTRyorhHJmq8nqlWxEyWyto1GFsGTGdbLI0cAj1AcbBAA1oZYUQEqZng==}
     dev: true
 
   /@types/cacheable-request@6.0.3:
