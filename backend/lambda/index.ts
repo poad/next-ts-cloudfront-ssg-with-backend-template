@@ -1,7 +1,6 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from "aws-lambda";
 import { GraphQLError } from "graphql";
 import { GraphQLClient, gql } from "graphql-request";
-import fetch from "node-fetch";
 import * as qs from "qs";
 
 const GITHUB_OAUTH_CLIENT_ID = process.env.GITHUB_OAUTH_CLIENT_ID as string;
