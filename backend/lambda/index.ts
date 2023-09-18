@@ -1,7 +1,6 @@
 import { APIGatewayProxyEvent, APIGatewayProxyResult } from "aws-lambda";
 import { GraphQLError } from "graphql";
 import { GraphQLClient, gql } from "graphql-request";
-import * as qs from "qs";
 
 const GITHUB_OAUTH_CLIENT_ID = process.env.GITHUB_OAUTH_CLIENT_ID as string;
 const GITHUB_OAUTH_CLIENT_SECRET = process.env
@@ -67,7 +66,7 @@ export const handler = async (
 	event: APIGatewayProxyEvent,
 ): Promise<APIGatewayProxyResult> => {
 	if (event.body) {
-		const code = qs.parse(event.body).code?.toString();
+		const code = new URLSearchParams(event.body).get("code")?.toString();
 		if (code) {
 			const tokenResp = await accessToken(code);
 			console.log(JSON.stringify(tokenResp));

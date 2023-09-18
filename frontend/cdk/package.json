@@ -21,15 +21,15 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.1.2",
-    "@types/node": "^20.6.0",
-    "aws-cdk": "^2.95.1",
+    "@types/node": "^20.6.2",
+    "aws-cdk": "^2.96.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.95.1",
+    "aws-cdk-lib": "^2.96.2",
     "constructs": "^10.2.70",
-    "esbuild": "^0.19.2",
+    "esbuild": "^0.19.3",
     "source-map-support": "^0.5.21"
   }
 }

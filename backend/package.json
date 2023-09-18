@@ -21,16 +21,16 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.1.2",
-    "@types/aws-lambda": "^8.10.120",
-    "@types/node": "^20.6.0",
+    "@types/aws-lambda": "^8.10.121",
+    "@types/node": "^20.6.2",
     "@types/qs": "^6.9.8",
-    "aws-cdk": "^2.95.1",
-    "esbuild": "^0.19.2",
+    "aws-cdk": "^2.96.2",
+    "esbuild": "^0.19.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.95.1",
+    "aws-cdk-lib": "^2.96.2",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.2.70",
     "graphql": "^16.8.0",
