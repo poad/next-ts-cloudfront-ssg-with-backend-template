@@ -23,7 +23,6 @@
     "@biomejs/biome": "1.1.2",
     "@types/aws-lambda": "^8.10.121",
     "@types/node": "^20.6.2",
-    "@types/qs": "^6.9.8",
     "aws-cdk": "^2.96.2",
     "esbuild": "^0.19.3",
     "ts-node": "^10.9.1",
@@ -35,7 +34,6 @@
     "constructs": "^10.2.70",
     "graphql": "^16.8.0",
     "graphql-request": "^6.1.0",
-    "qs": "^6.11.2",
     "source-map-support": "^0.5.21"
   }
 }

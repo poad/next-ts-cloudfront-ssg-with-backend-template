@@ -34,10 +34,9 @@
     "@biomejs/biome": "1.2.2",
     "rimraf": "^5.0.1"
   },
-  "packageManager": "pnpm@8.7.4",
   "engines": {
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
-    "pnpm": ">=8.7.4"
+    "pnpm": ">=8.7.6"
   }
 }

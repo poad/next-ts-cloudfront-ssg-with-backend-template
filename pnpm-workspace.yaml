@@ -1,4 +1,4 @@
 packages:
-  - './**'
-  - '!**/.next'
-  - '!**/cdk.out'
+  - './backend'
+  - './frontend'
+  - './frontend/cdk'
