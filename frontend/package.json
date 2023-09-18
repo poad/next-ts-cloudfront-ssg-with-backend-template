@@ -22,7 +22,7 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "@types/node": "^20.6.0",
+    "@types/node": "^20.6.2",
     "@types/react": "^18.2.21",
     "next": "^13.4.19",
     "react": "^18.2.0",
@@ -31,7 +31,7 @@
     "web-vitals": "^3.4.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.1.2",
+    "@biomejs/biome": "1.2.2",
     "rimraf": "^5.0.1"
   },
   "packageManager": "pnpm@8.7.4",
