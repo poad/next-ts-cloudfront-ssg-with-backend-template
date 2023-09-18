@@ -20,7 +20,7 @@
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.1.2",
+    "@biomejs/biome": "1.2.2",
     "@types/aws-lambda": "^8.10.121",
     "@types/node": "^20.6.2",
     "aws-cdk": "^2.96.2",
