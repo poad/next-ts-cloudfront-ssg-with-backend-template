@@ -8,11 +8,10 @@ import * as s3 from "aws-cdk-lib/aws-s3";
 import * as deployment from "aws-cdk-lib/aws-s3-deployment";
 import { Construct } from "constructs";
 
-export type NextCloudFrontTemplateStackConfig = {};
+export type NextCloudFrontTemplateStackConfig = cdk.StackProps;
 
 interface NextCloudFrontTemplateStackProps
-	extends NextCloudFrontTemplateStackConfig,
-		cdk.StackProps {
+	extends NextCloudFrontTemplateStackConfig {
 	appName: string;
 }
 
