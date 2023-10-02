@@ -68,7 +68,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         check-latest: true  
   
-    - name: deploy (cdk)
+    - name: deploy (backend)
       working-directory: backend
       run: |
         cdk deploy \
