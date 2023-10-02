@@ -22,7 +22,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.2.2",
     "@types/node": "^20.7.2",
-    "aws-cdk": "^2.99.0",
+    "aws-cdk": "^2.99.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   },
