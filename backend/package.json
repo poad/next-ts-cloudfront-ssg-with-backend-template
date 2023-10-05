@@ -15,12 +15,10 @@
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "clean": "rimraf build",
-    "prelint": "pnpm install",
-    "prelint-fix": "pnpm install",
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.2.2",
+    "@biomejs/biome": "^1.2.2",
     "@types/aws-lambda": "^8.10.122",
     "@types/node": "^20.8.2",
     "aws-cdk": "^2.99.1",
