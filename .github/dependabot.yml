@@ -9,6 +9,10 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      actions:
+        patterns:
+          - '*'
 
   - package-ecosystem: npm
     directory: '/'
@@ -20,6 +24,10 @@ updates:
     rebase-strategy: auto
     assignees:
       - poad
+    groups:
+      npm:
+        patterns:
+          - '*'
 
   - package-ecosystem: npm
     directory: '/frontend/'
@@ -32,7 +40,7 @@ updates:
     assignees:
       - poad
     groups:
-      nextjs:
+      frontend:
         patterns:
           - '*'
 
@@ -47,6 +55,6 @@ updates:
     assignees:
       - poad
     groups:
-      cdk:
+      cackend:
         patterns:
           - '*'
