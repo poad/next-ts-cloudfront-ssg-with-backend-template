@@ -76,7 +76,7 @@ jobs:
           -c parameterName=${{ env.API_ENDPOINT_URL_PARAM }}
 
     - name: Get Parameters
-      uses: poad/get-aws-ssm-parameter@v1.0.0
+      uses: poad/get-aws-ssm-parameter@v2.0.1
       id: get-param
       with:
         parameter-name: ${{ env.API_ENDPOINT_URL_PARAM }}
