@@ -20,9 +20,9 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "@types/node": "^20.9.0",
+    "@types/node": "^20.9.1",
     "@types/react": "^18.2.37",
-    "next": "^14.0.2",
+    "next": "^14.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2",
