@@ -11,8 +11,8 @@ importers:
   backend:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.117.0
-        version: 2.117.0(constructs@10.3.0)
+        specifier: ^2.118.0
+        version: 2.118.0(constructs@10.3.0)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -39,8 +39,8 @@ importers:
         specifier: ^20.10.6
         version: 20.10.6
       aws-cdk:
-        specifier: ^2.117.0
-        version: 2.117.0
+        specifier: ^2.118.0
+        version: 2.118.0
       esbuild:
         specifier: ^0.19.11
         version: 0.19.11
@@ -85,8 +85,8 @@ importers:
   frontend/cdk:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.117.0
-        version: 2.117.0(constructs@10.3.0)
+        specifier: ^2.118.0
+        version: 2.118.0(constructs@10.3.0)
       constructs:
         specifier: ^10.3.0
         version: 10.3.0
@@ -104,8 +104,8 @@ importers:
         specifier: ^20.10.6
         version: 20.10.6
       aws-cdk:
-        specifier: ^2.117.0
-        version: 2.117.0
+        specifier: ^2.118.0
+        version: 2.118.0
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@20.10.6)(typescript@5.3.3)
@@ -609,8 +609,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /aws-cdk-lib@2.117.0(constructs@10.3.0):
-    resolution: {integrity: sha512-My5T4hn34H6+tnZxKK2VlcvGI2N5SjqGt9lXWADcahdobuUcNizYrls7h/vcQ3BfwcZ5/tHTKtivkNyL8I1LDg==}
+  /aws-cdk-lib@2.118.0(constructs@10.3.0):
+    resolution: {integrity: sha512-i3At9HOuXNVLxQCo/y7Sb2Zj4Ir4tichG+755AAldebRcqXrCJizZq+sMMt6/Bkjggj2imWmhwHPZw518M9VMw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -632,8 +632,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.117.0:
-    resolution: {integrity: sha512-uuWT646vSRXZ/6don+wfK4kelV1aL4WOTduaihltRlXw4etHoMV3wJYBO30E6e8hAU+0HkLT7Fv58po50b12Sg==}
+  /aws-cdk@2.118.0:
+    resolution: {integrity: sha512-va4F7fyj+l9oNV39supHeGr+oHBrVds6+3mruLxGmCRnGf3nKfPB8Jy/jd6TnljY8Y6yPZ6bmYFS3CiUZbOATA==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
