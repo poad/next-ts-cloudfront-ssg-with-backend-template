@@ -11,8 +11,8 @@ importers:
   backend:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.119.0
-        version: 2.119.0(constructs@10.3.0)
+        specifier: ^2.121.1
+        version: 2.121.1(constructs@10.3.0)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -39,8 +39,8 @@ importers:
         specifier: ^20.11.0
         version: 20.11.0
       aws-cdk:
-        specifier: ^2.119.0
-        version: 2.119.0
+        specifier: ^2.121.1
+        version: 2.121.1
       esbuild:
         specifier: ^0.19.11
         version: 0.19.11
@@ -85,8 +85,8 @@ importers:
   frontend/cdk:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.119.0
-        version: 2.119.0(constructs@10.3.0)
+        specifier: ^2.121.1
+        version: 2.121.1(constructs@10.3.0)
       constructs:
         specifier: ^10.3.0
         version: 10.3.0
@@ -104,8 +104,8 @@ importers:
         specifier: ^20.11.0
         version: 20.11.0
       aws-cdk:
-        specifier: ^2.119.0
-        version: 2.119.0
+        specifier: ^2.121.1
+        version: 2.121.1
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@20.11.0)(typescript@5.3.3)
@@ -629,8 +629,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /aws-cdk-lib@2.119.0(constructs@10.3.0):
-    resolution: {integrity: sha512-aq1CFM4KkgJ0tkXCvkeCd2ThFxbaJCY5GVzG5X9SajSKEng7i4mmtblTRLfkz2lwhJLcoHXrvD0Nmf8kcNP5fg==}
+  /aws-cdk-lib@2.121.1(constructs@10.3.0):
+    resolution: {integrity: sha512-wrOHDDQqVuH2tRTH7p2LaMPVI3V2bqr8X//Qrhy+hOFA04u2MVetQYev+NgMXPjNzU9IGX2wy1Fs9Y/ntq2sQA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -652,8 +652,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.119.0:
-    resolution: {integrity: sha512-5+cCX2TzZLiistzFMKxcWQEc0MRkE+48sOkWdfN/8qJ5jnmZs4RpWTVU1HtkQKwEbBsz9jACpRFpkbu7S2Uitg==}
+  /aws-cdk@2.121.1:
+    resolution: {integrity: sha512-T8UFuNGDnXNmcHagCGeQ8xQA3zU/o2ENuyGXO/ho+U3KyYs7tnWIr++ovrp2FvhiBpmBv6SuKiueBA6OW7utBw==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -664,14 +664,14 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
     dependencies:
-      aws-sdk: 2.1534.0
+      aws-sdk: 2.1536.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.0
     dev: false
 
-  /aws-sdk@2.1534.0:
-    resolution: {integrity: sha512-J0PUq4C4HS+OuDhYKknPEfUBwcd1b833723rwJiyp4VHT90V5K34rwYQ2DVq7DC5tUgG3ufa4EhZ1eNn5qgP9A==}
+  /aws-sdk@2.1536.0:
+    resolution: {integrity: sha512-Kwl5xKti6qURwKkasZPA9d4q72tcNt0e3ZZ2ikjZvWbfWcIuuLN0GpUTarU8UpV4EiEw3W5z5G3jyHy8JLNyLw==}
     engines: {node: '>= 10.0.0'}
     dependencies:
       buffer: 4.9.2
@@ -724,7 +724,7 @@ packages:
     dependencies:
       function-bind: 1.1.2
       get-intrinsic: 1.2.2
-      set-function-length: 1.1.1
+      set-function-length: 1.2.0
     dev: false
 
   /caniuse-lite@1.0.30001576:
@@ -1186,11 +1186,12 @@ packages:
       loose-envify: 1.4.0
     dev: false
 
-  /set-function-length@1.1.1:
-    resolution: {integrity: sha512-VoaqjbBJKiWtg4yRcKBQ7g7wnGnLV3M8oLvVWwOk2PdYY6PEFegR1vezXR0tw6fZGF9csVakIRjrJiy2veSBFQ==}
+  /set-function-length@1.2.0:
+    resolution: {integrity: sha512-4DBHDoyHlM1IRPGYcoxexgh67y4ueR53FKV1yyxwFMY7aCqcN/38M1+SwZ/qJQ8iLv7+ck385ot4CcisOAPT9w==}
     engines: {node: '>= 0.4'}
     dependencies:
       define-data-property: 1.1.1
+      function-bind: 1.1.2
       get-intrinsic: 1.2.2
       gopd: 1.0.1
       has-property-descriptors: 1.0.1
