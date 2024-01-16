@@ -36,8 +36,8 @@ importers:
         specifier: ^8.10.131
         version: 8.10.131
       '@types/node':
-        specifier: ^20.11.1
-        version: 20.11.1
+        specifier: ^20.11.4
+        version: 20.11.4
       aws-cdk:
         specifier: ^2.121.1
         version: 2.121.1
@@ -46,7 +46,7 @@ importers:
         version: 0.19.11
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.11.1)(typescript@5.3.3)
+        version: 10.9.2(@types/node@20.11.4)(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -54,8 +54,8 @@ importers:
   frontend:
     dependencies:
       '@types/node':
-        specifier: ^20.11.1
-        version: 20.11.1
+        specifier: ^20.11.4
+        version: 20.11.4
       '@types/react':
         specifier: ^18.2.48
         version: 18.2.48
@@ -101,14 +101,14 @@ importers:
         specifier: ^1.5.2
         version: 1.5.2
       '@types/node':
-        specifier: ^20.11.1
-        version: 20.11.1
+        specifier: ^20.11.4
+        version: 20.11.4
       aws-cdk:
         specifier: ^2.121.1
         version: 2.121.1
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.11.1)(typescript@5.3.3)
+        version: 10.9.2(@types/node@20.11.4)(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -560,8 +560,8 @@ packages:
     resolution: {integrity: sha512-IWmFpqnVDvskYWnNSiu/qlRn80XlIOU0Gy5rKCl/NjhnI95pV8qIHs6L5b+bpHhyzuOSzjLgBcwgFSXrC1nZWA==}
     dev: true
 
-  /@types/node@20.11.1:
-    resolution: {integrity: sha512-DsXojJUES2M+FE8CpptJTKpg+r54moV9ZEncPstni1WHFmTcCzeFLnMFfyhCVS8XNOy/OQG+8lVxRLRrVHmV5A==}
+  /@types/node@20.11.4:
+    resolution: {integrity: sha512-6I0fMH8Aoy2lOejL3s4LhyIYX34DPwY8bl5xlNjBvUEk8OHrcuzsFt+Ied4LvJihbtXPM+8zUqdydfIti86v9g==}
     dependencies:
       undici-types: 5.26.5
 
@@ -664,14 +664,14 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
     dependencies:
-      aws-sdk: 2.1536.0
+      aws-sdk: 2.1537.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.0
     dev: false
 
-  /aws-sdk@2.1536.0:
-    resolution: {integrity: sha512-Kwl5xKti6qURwKkasZPA9d4q72tcNt0e3ZZ2ikjZvWbfWcIuuLN0GpUTarU8UpV4EiEw3W5z5G3jyHy8JLNyLw==}
+  /aws-sdk@2.1537.0:
+    resolution: {integrity: sha512-ILC4pSOA07XdkqbOVGJ4W2s1cBlmG5xQnVEgo4g5g0vhrjpuJm3jTSkBSGAOqpGuZ0TA/5uFCfsGnYnpoT2z0A==}
     engines: {node: '>= 10.0.0'}
     dependencies:
       buffer: 4.9.2
@@ -727,8 +727,8 @@ packages:
       set-function-length: 1.2.0
     dev: false
 
-  /caniuse-lite@1.0.30001576:
-    resolution: {integrity: sha512-ff5BdakGe2P3SQsMsiqmt1Lc8221NR1VzHj5jXN5vBny9A6fpze94HiVV/n7XRosOlsShJcvMv5mdnpjOGCEgg==}
+  /caniuse-lite@1.0.30001577:
+    resolution: {integrity: sha512-rs2ZygrG1PNXMfmncM0B5H1hndY5ZCC9b5TkFaVNfZ+AUlyqcMyVIQtc3fsezi0NUCk5XZfDf9WS6WxMxnfdrg==}
     dev: false
 
   /client-only@0.0.1:
@@ -1081,7 +1081,7 @@ packages:
       '@next/env': 14.0.4
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001576
+      caniuse-lite: 1.0.30001577
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
@@ -1293,7 +1293,7 @@ packages:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
     dev: false
 
-  /ts-node@10.9.2(@types/node@20.11.1)(typescript@5.3.3):
+  /ts-node@10.9.2(@types/node@20.11.4)(typescript@5.3.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -1312,7 +1312,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.11.1
+      '@types/node': 20.11.4
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
