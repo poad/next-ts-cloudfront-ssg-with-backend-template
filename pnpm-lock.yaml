@@ -664,14 +664,14 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
     dependencies:
-      aws-sdk: 2.1542.0
+      aws-sdk: 2.1543.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.0
     dev: false
 
-  /aws-sdk@2.1542.0:
-    resolution: {integrity: sha512-GcDlp9/2fRo7I6LxW1wAMVHf6G4b4S4vsFDhWMhK6Ycx3EhNmpJVEtQn5b46O90ChgD6ydQwBGEoi00W5Km0Lw==}
+  /aws-sdk@2.1543.0:
+    resolution: {integrity: sha512-sC8VwfdlauX7AYYm6Ed4SkONjt7cLr63AdkSL0MS+lwoy1fJwVRb2Kwylv+an1uAdQavRltWnEg2LVo2jzRQuA==}
     engines: {node: '>= 10.0.0'}
     dependencies:
       buffer: 4.9.2
