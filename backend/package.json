@@ -19,15 +19,15 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",
-    "@types/aws-lambda": "^8.10.131",
+    "@types/aws-lambda": "^8.10.132",
     "@types/node": "^20.11.7",
-    "aws-cdk": "^2.123.0",
+    "aws-cdk": "^2.124.0",
     "esbuild": "^0.19.12",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.123.0",
+    "aws-cdk-lib": "^2.124.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.3.0",
     "graphql": "^16.8.1",
