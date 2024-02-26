@@ -57,8 +57,8 @@ importers:
         specifier: ^20.11.20
         version: 20.11.20
       '@types/react':
-        specifier: ^18.2.58
-        version: 18.2.58
+        specifier: ^18.2.59
+        version: 18.2.59
       next:
         specifier: ^14.1.0
         version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -569,8 +569,8 @@ packages:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
     dev: false
 
-  /@types/react@18.2.58:
-    resolution: {integrity: sha512-TaGvMNhxvG2Q0K0aYxiKfNDS5m5ZsoIBBbtfUorxdH4NGSXIlYvZxLJI+9Dd3KjeB3780bciLyAb7ylO8pLhPw==}
+  /@types/react@18.2.59:
+    resolution: {integrity: sha512-DE+F6BYEC8VtajY85Qr7mmhTd/79rJKIHCg99MU9SWPB4xvLb6D1za2vYflgZfmPqQVEr6UqJTnLXEwzpVPuOg==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -667,14 +667,14 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
     dependencies:
-      aws-sdk: 2.1565.0
+      aws-sdk: 2.1566.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.0
     dev: false
 
-  /aws-sdk@2.1565.0:
-    resolution: {integrity: sha512-5+qkIUd6GfzybqWP43RCMqCNL5Ry3ztCWcC5d9Mq0O9cqQQM9eoUfktdgiu1eFc3zAM01dFNUR6fZfXnmZgkuQ==}
+  /aws-sdk@2.1566.0:
+    resolution: {integrity: sha512-4LmOUWrHUk/SIIWzn7j6DaGs92zjDH42v0dovPw7l5usb8ZAQ5yk1bDltM/xs1C/L36gkxixEFVjv7Ac1KNgNw==}
     engines: {node: '>= 10.0.0'}
     dependencies:
       buffer: 4.9.2
