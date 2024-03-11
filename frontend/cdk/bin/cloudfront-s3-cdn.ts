@@ -3,7 +3,7 @@ import * as cdk from "aws-cdk-lib";
 import "source-map-support/register";
 import {
 	NextCloudFrontTemplateStack,
-	NextCloudFrontTemplateStackConfig,
+	type NextCloudFrontTemplateStackConfig,
 } from "../lib/cloudfront-s3-cdn-stack";
 import { nextJsExport } from "../lib/process/setup";
 
