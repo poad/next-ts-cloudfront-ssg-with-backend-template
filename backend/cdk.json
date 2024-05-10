@@ -1,5 +1,5 @@
 {
-  "app": "npx node --ploader ts-node/esm bin/backend.ts",
+  "app": "npx node --loader ts-node/esm bin/backend.ts",
   "watch": {
     "include": [
       "**"
