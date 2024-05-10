@@ -22,7 +22,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-rm -rf node_modules && pnpm install && pnpm up && pnpm lint-fix && pnpm build
+corepack use pnpm@latest && rm -rf node_modules && pnpm install && pnpm up && pnpm lint-fix && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
@@ -36,7 +36,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-rm -rf node_modules && pnpm install && pnpm up && pnpm lint-fix && pnpm all
+corepack use pnpm@latest && rm -rf node_modules && pnpm install && pnpm up && pnpm lint-fix && pnpm all
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
@@ -50,7 +50,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-rm -rf node_modules && pnpm install && pnpm up && pnpm lint-fix && pnpm build
+corepack use pnpm@latest && rm -rf node_modules && pnpm install && pnpm up && pnpm lint-fix && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
