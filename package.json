@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "pnpm -r build",
     "lint-fix": "pnpm -r lint-fix"
