@@ -16,7 +16,6 @@
     "clean": "rimraf build",
     "pretest": "pnpm build",
     "prebuild": "pnpm lint",
-    "predev": "pnpm install",
     "all": "pnpm build"
   },
   "dependencies": {
