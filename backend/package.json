@@ -4,6 +4,7 @@
   "bin": {
     "backend": "bin/backend.js"
   },
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
