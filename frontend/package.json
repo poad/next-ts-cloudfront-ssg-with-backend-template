@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@types/node": "^20.12.11",
-    "@types/react": "^18.3.1",
+    "@types/react": "^18.3.2",
     "next": "^14.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.7.3",
-    "rimraf": "^5.0.5"
+    "rimraf": "^5.0.7"
   },
   "engines": {
     "npm": "use pnpm please!",
