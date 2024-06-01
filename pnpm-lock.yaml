@@ -11,8 +11,8 @@ importers:
   backend:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.143.1
-        version: 2.143.1(constructs@10.3.0)
+        specifier: ^2.144.0
+        version: 2.144.0(constructs@10.3.0)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -36,17 +36,17 @@ importers:
         specifier: ^8.10.138
         version: 8.10.138
       '@types/node':
-        specifier: ^20.12.13
-        version: 20.12.13
+        specifier: ^20.13.0
+        version: 20.13.0
       aws-cdk:
-        specifier: ^2.143.1
-        version: 2.143.1
+        specifier: ^2.144.0
+        version: 2.144.0
       esbuild:
         specifier: ^0.21.4
         version: 0.21.4
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.12.13)(typescript@5.4.5)
+        version: 10.9.2(@types/node@20.13.0)(typescript@5.4.5)
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -54,8 +54,8 @@ importers:
   frontend:
     dependencies:
       '@types/node':
-        specifier: ^20.12.13
-        version: 20.12.13
+        specifier: ^20.13.0
+        version: 20.13.0
       '@types/react':
         specifier: ^18.3.3
         version: 18.3.3
@@ -85,8 +85,8 @@ importers:
   frontend/cdk:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.143.1
-        version: 2.143.1(constructs@10.3.0)
+        specifier: ^2.144.0
+        version: 2.144.0(constructs@10.3.0)
       constructs:
         specifier: ^10.3.0
         version: 10.3.0
@@ -101,14 +101,14 @@ importers:
         specifier: ^1.7.3
         version: 1.7.3
       '@types/node':
-        specifier: ^20.12.13
-        version: 20.12.13
+        specifier: ^20.13.0
+        version: 20.13.0
       aws-cdk:
-        specifier: ^2.143.1
-        version: 2.143.1
+        specifier: ^2.144.0
+        version: 2.144.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@20.12.13)(typescript@5.4.5)
+        version: 10.9.2(@types/node@20.13.0)(typescript@5.4.5)
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -467,8 +467,8 @@ packages:
   '@types/aws-lambda@8.10.138':
     resolution: {integrity: sha512-71EHMl70TPWIAsFuHd85NHq6S6T2OOjiisPTrH7RgcjzpJpPh4RQJv7PvVvIxc6PIp8CLV7F9B+TdjcAES5vcA==}
 
-  '@types/node@20.12.13':
-    resolution: {integrity: sha512-gBGeanV41c1L171rR7wjbMiEpEI/l5XFQdLLfhr/REwpgDy/4U8y89+i8kRiLzDyZdOkXh+cRaTetUnCYutoXA==}
+  '@types/node@20.13.0':
+    resolution: {integrity: sha512-FM6AOb3khNkNIXPnHFDYaHerSv8uN22C91z098AnGccVu+Pcdhi+pNUFDi0iLmPIsVE0JBD0KVS7mzUYt4nRzQ==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -514,8 +514,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.143.1:
-    resolution: {integrity: sha512-GY1+5vRE8x0AWZLrsCeQowpq+Mw8dvKjN+pXLz6HXh6a9zVI+vLPJwBFprTxu05P3slzKu3iOPS5hOa9iaqLiQ==}
+  aws-cdk-lib@2.144.0:
+    resolution: {integrity: sha512-DpyIyTs8NHX6WgAyYM2mGorirIk+eTjWzXGQRfzAe40qkwcqsb5Ax4JEl5gz1OEo9QIJIgWDtmImgWN0tUbILA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -532,8 +532,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.143.1:
-    resolution: {integrity: sha512-iIC2ykA6djW/cc8k+md/gLZMAvXHMEnh+JsTZStc7QDrckp0fHw1Pm8HZ/bS4VX3AteF9HbfxRwyUD1J9qmK8g==}
+  aws-cdk@2.144.0:
+    resolution: {integrity: sha512-qsTZGCceKi15oOYbWvWpIZNBHRZa+WTV5IIN20leQV9PVRxzHGN58VCOIAiyT1+CncDYjY9grLXEGAOuKRynFQ==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -541,8 +541,8 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
 
-  aws-sdk@2.1631.0:
-    resolution: {integrity: sha512-QG1A1bsgy9jKyY20LVxEeB16zEbn3dPIZmVeh/7vk6ukb2+5Vjh0s+E5bVlNHFFXVu6rsviayqGmjr16fJ5I1g==}
+  aws-sdk@2.1632.0:
+    resolution: {integrity: sha512-doNHUxto00r7r9qWb5RcIsQHUTHdGiPPyJoXxmsmQW6aOr69BqYeuFl8SicNS1YzP6s5sFFnDNKq9KB7jA2fyA==}
     engines: {node: '>= 10.0.0'}
 
   balanced-match@1.0.2:
@@ -1240,7 +1240,7 @@ snapshots:
 
   '@types/aws-lambda@8.10.138': {}
 
-  '@types/node@20.12.13':
+  '@types/node@20.13.0':
     dependencies:
       undici-types: 5.26.5
 
@@ -1282,25 +1282,25 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-cdk-lib@2.143.1(constructs@10.3.0):
+  aws-cdk-lib@2.144.0(constructs@10.3.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.202
       '@aws-cdk/asset-kubectl-v20': 2.1.2
       '@aws-cdk/asset-node-proxy-agent-v6': 2.0.3
       constructs: 10.3.0
 
-  aws-cdk@2.143.1:
+  aws-cdk@2.144.0:
     optionalDependencies:
       fsevents: 2.3.2
 
   aws-lambda@1.0.7:
     dependencies:
-      aws-sdk: 2.1631.0
+      aws-sdk: 2.1632.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.1
 
-  aws-sdk@2.1631.0:
+  aws-sdk@2.1632.0:
     dependencies:
       buffer: 4.9.2
       events: 1.1.1
@@ -1684,14 +1684,14 @@ snapshots:
       client-only: 0.0.1
       react: 18.3.1
 
-  ts-node@10.9.2(@types/node@20.12.13)(typescript@5.4.5):
+  ts-node@10.9.2(@types/node@20.13.0)(typescript@5.4.5):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.12.13
+      '@types/node': 20.13.0
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
