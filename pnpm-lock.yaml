@@ -541,8 +541,8 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
 
-  aws-sdk@2.1637.0:
-    resolution: {integrity: sha512-oV5I/d9Bd9ktXPsHOOKaJy5R5ynN3XtxCzYn30xjTnkWmZx1QKD1BGmBGJR/DigdeNWvnuGWOSPh4KGkp6Jgag==}
+  aws-sdk@2.1638.0:
+    resolution: {integrity: sha512-/Li+eOMvJOLuYXimt3YPd6ec9Xvzh6L5KLfU5bjuJrltQqBcW7paL+PnFqSjm7zef+fPJT7h+8sqEcuRaGUmRA==}
     engines: {node: '>= 10.0.0'}
 
   balanced-match@1.0.2:
@@ -568,8 +568,8 @@ packages:
     resolution: {integrity: sha512-GHTSNSYICQ7scH7sZ+M2rFopRoLh8t2bLSW6BbgrtLsahOIB5iyAVJf9GjWK3cYTDaMj4XdBpM1cA6pIS0Kv2w==}
     engines: {node: '>= 0.4'}
 
-  caniuse-lite@1.0.30001629:
-    resolution: {integrity: sha512-c3dl911slnQhmxUIT4HhYzT7wnBK/XYpGnYLOj4nJBaRiw52Ibe7YxlDaAeRECvA786zCuExhxIUJ2K7nHMrBw==}
+  caniuse-lite@1.0.30001632:
+    resolution: {integrity: sha512-udx3o7yHJfUxMLkGohMlVHCvFvWmirKh9JAH/d7WOLPetlH+LTL5cocMZ0t7oZx/mdlOWXti97xLZWc8uURRHg==}
 
   chalk@5.3.0:
     resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
@@ -1295,12 +1295,12 @@ snapshots:
 
   aws-lambda@1.0.7:
     dependencies:
-      aws-sdk: 2.1637.0
+      aws-sdk: 2.1638.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.1
 
-  aws-sdk@2.1637.0:
+  aws-sdk@2.1638.0:
     dependencies:
       buffer: 4.9.2
       events: 1.1.1
@@ -1341,7 +1341,7 @@ snapshots:
       get-intrinsic: 1.2.4
       set-function-length: 1.2.2
 
-  caniuse-lite@1.0.30001629: {}
+  caniuse-lite@1.0.30001632: {}
 
   chalk@5.3.0: {}
 
@@ -1560,7 +1560,7 @@ snapshots:
       '@next/env': 14.2.3
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001629
+      caniuse-lite: 1.0.30001632
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
