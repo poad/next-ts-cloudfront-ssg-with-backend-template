@@ -509,8 +509,8 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
 
-  aws-sdk@2.1651.0:
-    resolution: {integrity: sha512-MZjQvvOPkKcx1N428ejUjqSfhm4TAIcgPIgpniiDMw1LjB1yA8JBZvrWer6J6MACAXQ99v0uKE4BSvtYn+AT3g==}
+  aws-sdk@2.1652.0:
+    resolution: {integrity: sha512-TDe0dKwxfIUvhW/6ex+tqnsvduXDnP/ZZCysrlz67oixVoqrucjtN1A0ALVyQdwQX2ZAMNV80BGhBSkQXqYVBg==}
     engines: {node: '>= 10.0.0'}
 
   balanced-match@1.0.2:
@@ -923,8 +923,8 @@ packages:
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
-  type-fest@4.20.1:
-    resolution: {integrity: sha512-R6wDsVsoS9xYOpy8vgeBlqpdOyzJ12HNfQhC/aAKWM3YoCV9TtunJzh/QpkMgeDhkoynDcw5f1y+qF9yc/HHyg==}
+  type-fest@4.21.0:
+    resolution: {integrity: sha512-ADn2w7hVPcK6w1I0uWnM//y1rLXZhzB9mr0a3OirzclKF1Wp6VzevUmzz/NRAWunOT6E8HrnpGY7xOfc6K57fA==}
     engines: {node: '>=16'}
 
   typescript@5.5.3:
@@ -1142,7 +1142,7 @@ snapshots:
       string-length: 6.0.0
       strip-ansi: 7.1.0
       ts-toolbelt: 9.6.0
-      type-fest: 4.20.1
+      type-fest: 4.21.0
       zod: 3.23.8
 
   '@molt/types@0.2.0':
@@ -1255,12 +1255,12 @@ snapshots:
 
   aws-lambda@1.0.7:
     dependencies:
-      aws-sdk: 2.1651.0
+      aws-sdk: 2.1652.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.1
 
-  aws-sdk@2.1651.0:
+  aws-sdk@2.1652.0:
     dependencies:
       buffer: 4.9.2
       events: 1.1.1
@@ -1659,7 +1659,7 @@ snapshots:
 
   tslib@2.6.3: {}
 
-  type-fest@4.20.1: {}
+  type-fest@4.21.0: {}
 
   typescript@5.5.3: {}
 
