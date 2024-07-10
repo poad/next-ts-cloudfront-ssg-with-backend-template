@@ -33,8 +33,8 @@ importers:
         specifier: ^1.8.3
         version: 1.8.3
       '@types/aws-lambda':
-        specifier: ^8.10.140
-        version: 8.10.140
+        specifier: ^8.10.141
+        version: 8.10.141
       '@types/node':
         specifier: ^20.14.10
         version: 20.14.10
@@ -432,8 +432,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@types/aws-lambda@8.10.140':
-    resolution: {integrity: sha512-4Dh3dk2TUcbdfHrX0Al90mNGJDvA9NBiTQPzbrjGi/dLxzKCGOYgT8YQ47jUKNFALkAJAadifq0pzyjIUlhVhg==}
+  '@types/aws-lambda@8.10.141':
+    resolution: {integrity: sha512-SMWlRBukG9KV8ZNjwemp2AzDibp/czIAeKKTw09nCPbWxVskIxactCJCGOp4y6I1hCMY7T7UGfySvBLXNeUbEw==}
 
   '@types/node@20.14.10':
     resolution: {integrity: sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==}
@@ -1196,7 +1196,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@types/aws-lambda@8.10.140': {}
+  '@types/aws-lambda@8.10.141': {}
 
   '@types/node@20.14.10':
     dependencies:
