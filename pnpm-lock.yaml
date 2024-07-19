@@ -923,8 +923,8 @@ packages:
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
-  type-fest@4.22.0:
-    resolution: {integrity: sha512-hxMO1k4ip1uTVGgPbs1hVpYyhz2P91A6tQyH2H9POx3U6T3MdhIcfY8L2hRu/LRmzPFdfduOS0RIDjFlP2urPw==}
+  type-fest@4.22.1:
+    resolution: {integrity: sha512-9tHNEa0Ov81YOopiVkcCJVz5TM6AEQ+CHHjFIktqPnE3NV0AHIkx+gh9tiCl58m/66wWxkOC9eltpa75J4lQPA==}
     engines: {node: '>=16'}
 
   typescript@5.5.3:
@@ -1142,7 +1142,7 @@ snapshots:
       string-length: 6.0.0
       strip-ansi: 7.1.0
       ts-toolbelt: 9.6.0
-      type-fest: 4.22.0
+      type-fest: 4.22.1
       zod: 3.23.8
 
   '@molt/types@0.2.0':
@@ -1660,7 +1660,7 @@ snapshots:
 
   tslib@2.6.3: {}
 
-  type-fest@4.22.0: {}
+  type-fest@4.22.1: {}
 
   typescript@5.5.3: {}
 
