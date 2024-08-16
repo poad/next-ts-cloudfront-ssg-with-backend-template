@@ -509,8 +509,8 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
 
-  aws-sdk@2.1672.0:
-    resolution: {integrity: sha512-en4uaVWE/wPa9YsF2XAYtKP0hLQ10s93/nWe+SQ8Yox1xrDn1Tr32MMOtSLRXLxPRKcvmI7Yzw7jiQMgs1jqBQ==}
+  aws-sdk@2.1676.0:
+    resolution: {integrity: sha512-Kzg9931GroRG6uLoUEF5Pcp005D1xilgQ8ntH0fKFxiYKGkQqkU/3JkV6k7jNRzouxTypaozzXYVNXsHRgH6JA==}
     engines: {node: '>= 10.0.0'}
 
   balanced-match@1.0.2:
@@ -948,8 +948,8 @@ packages:
   v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
 
-  watchpack@2.4.1:
-    resolution: {integrity: sha512-8wrBCMtVhqcXP2Sup1ctSkga6uc2Bx0IIvKyT7yTFier5AXHooSI+QyQQAtTb7+E0IUCCKyTFmXqdqgum2XWGg==}
+  watchpack@2.4.2:
+    resolution: {integrity: sha512-TnbFSbcOCcDgjZ4piURLCbJ3nJhznVh9kw6F6iokjiFPl8ONxe9A6nMDVXDiNbrSfLILs6vB07F7wLBrwPYzJw==}
     engines: {node: '>=10.13.0'}
 
   web-vitals@4.2.3:
@@ -1255,12 +1255,12 @@ snapshots:
 
   aws-lambda@1.0.7:
     dependencies:
-      aws-sdk: 2.1672.0
+      aws-sdk: 2.1676.0
       commander: 3.0.2
       js-yaml: 3.14.1
-      watchpack: 2.4.1
+      watchpack: 2.4.2
 
-  aws-sdk@2.1672.0:
+  aws-sdk@2.1676.0:
     dependencies:
       buffer: 4.9.2
       events: 1.1.1
@@ -1683,7 +1683,7 @@ snapshots:
 
   v8-compile-cache-lib@3.0.1: {}
 
-  watchpack@2.4.1:
+  watchpack@2.4.2:
     dependencies:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
