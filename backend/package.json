@@ -22,13 +22,13 @@
     "@biomejs/biome": "^1.8.3",
     "@types/aws-lambda": "^8.10.143",
     "@types/node": "^22.4.1",
-    "aws-cdk": "^2.152.0",
+    "aws-cdk": "^2.153.0",
     "esbuild": "^0.23.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.152.0",
+    "aws-cdk-lib": "^2.153.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.3.0",
     "graphql": "^16.9.0",
