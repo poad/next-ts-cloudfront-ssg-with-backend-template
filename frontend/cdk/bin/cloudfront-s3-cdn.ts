@@ -11,7 +11,7 @@ const app = new cdk.App();
 
 const env = app.node.tryGetContext("env");
 const appName =
-	app.node.tryGetContext("appkName") ||
+	app.node.tryGetContext("appName") ??
 	`${env ? `${env}-` : ""}next-cloudfront-template`;
 
 const config = app.node.tryGetContext(env) as NextCloudFrontTemplateStackConfig;

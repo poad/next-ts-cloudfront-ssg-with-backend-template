@@ -84,5 +84,5 @@ jobs:
       working-directory: frontend/cdk
       run: |
         cdk deploy \
-          -c appkName=${{ env.APP_NAME }}\
+          -c appName=${{ env.APP_NAME }}\
           -c apiUrl=${{ steps.get-param.outputs.value }}
