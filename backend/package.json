@@ -12,7 +12,7 @@
     "format-check": "biome format bin lib lambda",
     "format": "biome format --write bin lib lambda",
     "check": "biome check bin lib lambda",
-    "check-fix": "biome check --apply-unsafe bin lib lambda",
+    "check-fix": "biome check --write --unsafe bin lib lambda",
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "clean": "rimraf build",

@@ -11,7 +11,7 @@
     "format-check": "biome format src",
     "format": "biome format --write src",
     "check": "biome check src",
-    "check-fix": "biome check --apply-unsafe src",
+    "check-fix": "biome check --write --unsafe src",
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "clean": "rimraf build",

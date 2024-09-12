@@ -11,7 +11,7 @@
     "format-check": "biome format bin lib",
     "format": "biome format --write bin lib",
     "check": "biome check bin lib",
-    "check-fix": "biome check --apply-unsafe bin lib",
+    "check-fix": "biome check --write --unsafe bin lib",
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "clean": "rimraf build",
