@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@types/node": "^22.5.5",
-    "@types/react": "^18.3.7",
+    "@types/react": "^18.3.8",
     "next": "^14.2.12",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -29,7 +29,7 @@
     "web-vitals": "^4.2.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.1",
+    "@biomejs/biome": "^1.9.2",
     "rimraf": "^6.0.1"
   },
   "engines": {
