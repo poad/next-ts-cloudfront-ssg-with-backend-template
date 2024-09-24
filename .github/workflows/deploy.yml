@@ -79,6 +79,7 @@ jobs:
       with:
         parameter-name: ${{ env.API_ENDPOINT_URL_PARAM }}
         aws-region: us-west-2
+        decryption: false
 
     - name: deploy (frontend)
       working-directory: frontend/cdk
