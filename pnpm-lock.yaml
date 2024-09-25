@@ -36,8 +36,8 @@ importers:
         specifier: ^8.10.145
         version: 8.10.145
       '@types/node':
-        specifier: ^22.6.1
-        version: 22.6.1
+        specifier: ^22.6.2
+        version: 22.6.2
       aws-cdk:
         specifier: ^2.160.0
         version: 2.160.0
@@ -46,7 +46,7 @@ importers:
         version: 0.24.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.6.1)(typescript@5.6.2)
+        version: 10.9.2(@types/node@22.6.2)(typescript@5.6.2)
       typescript:
         specifier: ^5.6.2
         version: 5.6.2
@@ -54,8 +54,8 @@ importers:
   frontend:
     dependencies:
       '@types/node':
-        specifier: ^22.6.1
-        version: 22.6.1
+        specifier: ^22.6.2
+        version: 22.6.2
       '@types/react':
         specifier: ^18.3.9
         version: 18.3.9
@@ -101,14 +101,14 @@ importers:
         specifier: ^1.9.2
         version: 1.9.2
       '@types/node':
-        specifier: ^22.6.1
-        version: 22.6.1
+        specifier: ^22.6.2
+        version: 22.6.2
       aws-cdk:
         specifier: ^2.160.0
         version: 2.160.0
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.6.1)(typescript@5.6.2)
+        version: 10.9.2(@types/node@22.6.2)(typescript@5.6.2)
       typescript:
         specifier: ^5.6.2
         version: 5.6.2
@@ -437,8 +437,8 @@ packages:
   '@types/aws-lambda@8.10.145':
     resolution: {integrity: sha512-dtByW6WiFk5W5Jfgz1VM+YPA21xMXTuSFoLYIDY0L44jDLLflVPtZkYuu3/YxpGcvjzKFBZLU+GyKjR0HOYtyw==}
 
-  '@types/node@22.6.1':
-    resolution: {integrity: sha512-V48tCfcKb/e6cVUigLAaJDAILdMP0fUW6BidkPK4GpGjXcfbnoHasCZDwz3N3yVt5we2RHm4XTQCpv0KJz9zqw==}
+  '@types/node@22.6.2':
+    resolution: {integrity: sha512-roF5SJIJFOiDNf+vO6h/a0Y02/U4wJ7KwgDNrBdkBGUstvOkct7JQaSkF16jXn/UsAhvNeLEXqyuN6EUvg6+xw==}
 
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
@@ -1199,7 +1199,7 @@ snapshots:
 
   '@types/aws-lambda@8.10.145': {}
 
-  '@types/node@22.6.1':
+  '@types/node@22.6.2':
     dependencies:
       undici-types: 6.19.8
 
@@ -1638,14 +1638,14 @@ snapshots:
       client-only: 0.0.1
       react: 18.3.1
 
-  ts-node@10.9.2(@types/node@22.6.1)(typescript@5.6.2):
+  ts-node@10.9.2(@types/node@22.6.2)(typescript@5.6.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.6.1
+      '@types/node': 22.6.2
       acorn: 8.12.0
       acorn-walk: 8.3.3
       arg: 4.1.3
