@@ -18,7 +18,7 @@
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.2",
+    "@biomejs/biome": "^1.9.3",
     "@types/node": "^22.7.4",
     "aws-cdk": "^2.160.0",
     "ts-node": "^10.9.2",
