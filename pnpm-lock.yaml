@@ -12,13 +12,13 @@ importers:
     dependencies:
       aws-cdk-lib:
         specifier: ^2.162.1
-        version: 2.162.1(constructs@10.4.1)
+        version: 2.162.1(constructs@10.4.2)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
       constructs:
-        specifier: ^10.4.1
-        version: 10.4.1
+        specifier: ^10.4.2
+        version: 10.4.2
       graphql:
         specifier: ^16.9.0
         version: 16.9.0
@@ -86,10 +86,10 @@ importers:
     dependencies:
       aws-cdk-lib:
         specifier: ^2.162.1
-        version: 2.162.1(constructs@10.4.1)
+        version: 2.162.1(constructs@10.4.2)
       constructs:
-        specifier: ^10.4.1
-        version: 10.4.1
+        specifier: ^10.4.2
+        version: 10.4.2
       esbuild:
         specifier: ^0.24.0
         version: 0.24.0
@@ -558,8 +558,8 @@ packages:
   commander@3.0.2:
     resolution: {integrity: sha512-Gar0ASD4BDyKC4hl4DwHqDrmvjoxWKZigVnAbn5H1owvm4CxCPdb0HQDehwNYMJpla5+M2tPmPARzhtYuwpHow==}
 
-  constructs@10.4.1:
-    resolution: {integrity: sha512-eIZhGVl6SFI0T6eKtjDRlgInJn3X3uh6l4MMpRF+cQrCfm1SPkDUAMwwYEJ6bpj0Muv2quKE2E8HrijKGyNGaw==}
+  constructs@10.4.2:
+    resolution: {integrity: sha512-wsNxBlAott2qg8Zv87q3eYZYgheb9lchtBfjHzzLHtXbttwSrHPs1NNQbBrmbb1YZvYg2+Vh0Dor76w4mFxJkA==}
 
   create-require@1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
@@ -1242,13 +1242,13 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-cdk-lib@2.162.1(constructs@10.4.1):
+  aws-cdk-lib@2.162.1(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.204
       '@aws-cdk/asset-kubectl-v20': 2.1.2
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
       '@aws-cdk/cloud-assembly-schema': 38.0.1
-      constructs: 10.4.1
+      constructs: 10.4.2
 
   aws-cdk@2.162.1:
     optionalDependencies:
@@ -1316,7 +1316,7 @@ snapshots:
 
   commander@3.0.2: {}
 
-  constructs@10.4.1: {}
+  constructs@10.4.2: {}
 
   create-require@1.1.1: {}
 
