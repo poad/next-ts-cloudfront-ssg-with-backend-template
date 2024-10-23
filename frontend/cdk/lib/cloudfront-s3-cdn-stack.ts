@@ -1,5 +1,5 @@
 import * as crypto from "node:crypto";
-/* eslint-disable no-new */
+ 
 import * as cdk from "aws-cdk-lib";
 import * as cloudfront from "aws-cdk-lib/aws-cloudfront";
 import * as origin from "aws-cdk-lib/aws-cloudfront-origins";

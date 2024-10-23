@@ -14,11 +14,11 @@ query {
 }
 `;
 
-type AccessTokenResponse = {
+interface AccessTokenResponse {
 	access_token: string;
 	scope: string;
 	token_type: string;
-};
+}
 
 type GraphQLResponse =
 	| {
