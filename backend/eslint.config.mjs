@@ -26,8 +26,6 @@ export default tseslint.config(
       'cdk.out',
       'dist',
     ],
-  },
-  {
     files: ['./{bin,lib,lambda}/**/*.ts'],
     ...importPlugin.flatConfigs.recommended,
     ...importPlugin.flatConfigs.typescript,
