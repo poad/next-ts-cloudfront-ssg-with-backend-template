@@ -27,7 +27,7 @@
     "@stylistic/eslint-plugin-jsx": "^2.11.0",
     "@stylistic/eslint-plugin-plus": "^2.11.0",
     "@stylistic/eslint-plugin-ts": "^2.11.0",
-    "@types/node": "^22.9.3",
+    "@types/node": "^22.9.4",
     "@types/react": "^18.3.12",
     "eslint": "^9.15.0",
     "eslint-config-import": "^0.13.0",
@@ -37,12 +37,12 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.9.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-promise": "^7.1.0",
+    "eslint-plugin-promise": "^7.2.0",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.15.0"
+    "typescript-eslint": "^8.16.0"
   },
   "engines": {
     "npm": "use pnpm please!",
