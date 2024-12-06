@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "next": "^15.0.4",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
@@ -28,7 +28,7 @@
     "@stylistic/eslint-plugin-plus": "^2.11.0",
     "@stylistic/eslint-plugin-ts": "^2.11.0",
     "@types/node": "^22.10.1",
-    "@types/react": "^18.3.14",
+    "@types/react": "^19.0.0",
     "eslint": "^9.16.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^15.0.4",
