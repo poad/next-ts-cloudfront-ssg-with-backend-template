@@ -31,7 +31,7 @@
     "eslint-plugin-promise": "^7.2.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.18.1"
+    "typescript-eslint": "^8.18.2"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.173.2",
