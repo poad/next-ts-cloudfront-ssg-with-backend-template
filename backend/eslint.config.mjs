@@ -4,7 +4,7 @@ import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import stylisticTs from '@stylistic/eslint-plugin-ts';
 import tseslint from 'typescript-eslint';
-// @ts-ignore
+// @ts-expect-error ignore type error
 import importPlugin from 'eslint-plugin-import';
 
 import pluginPromise from 'eslint-plugin-promise'

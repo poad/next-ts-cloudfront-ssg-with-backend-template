@@ -26,7 +26,7 @@ export default tseslint.config(
       './.next/*',
       'out',
     ],
-    files: ['src/**/*.{jsx,tsx}'],
+    files: ['src/**/*.tsx', 'src/**/*.ts'],
     plugins: {
       'jsx-a11y': jsxA11yPlugin,
       '@next/next': nextPlugin,
@@ -35,6 +35,7 @@ export default tseslint.config(
       '@stylistic/jsx': stylisticJsx,
     },
     extends: [
+      // @ts-expect-error ignore type error
       ...compat.config(reactHooksPlugin.configs.recommended),
       ...compat.config(jsxA11yPlugin.configs.recommended),
     ],
@@ -51,7 +52,8 @@ export default tseslint.config(
         typescript: {},
       },
     },
-    rules: {
+      // @ts-expect-error ignore type error
+      rules: {
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs['core-web-vitals'].rules,
       '@next/next/no-duplicate-head': 'off',
