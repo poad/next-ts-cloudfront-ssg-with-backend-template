@@ -42,11 +42,11 @@ importers:
         specifier: ^2.12.1
         version: 2.12.1(eslint@9.17.0)(typescript@5.7.2)
       '@types/aws-lambda':
-        specifier: ^8.10.146
-        version: 8.10.146
+        specifier: ^8.10.147
+        version: 8.10.147
       '@types/node':
-        specifier: ^22.10.3
-        version: 22.10.3
+        specifier: ^22.10.4
+        version: 22.10.4
       aws-cdk:
         specifier: ^2.173.4
         version: 2.173.4
@@ -73,7 +73,7 @@ importers:
         version: 7.2.1(eslint@9.17.0)
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.10.3)(typescript@5.7.2)
+        version: 10.9.2(@types/node@22.10.4)(typescript@5.7.2)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -112,8 +112,8 @@ importers:
         specifier: ^2.12.1
         version: 2.12.1(eslint@9.17.0)(typescript@5.7.2)
       '@types/node':
-        specifier: ^22.10.3
-        version: 22.10.3
+        specifier: ^22.10.4
+        version: 22.10.4
       '@types/react':
         specifier: ^19.0.2
         version: 19.0.2
@@ -188,8 +188,8 @@ importers:
         specifier: ^2.12.1
         version: 2.12.1(eslint@9.17.0)(typescript@5.7.2)
       '@types/node':
-        specifier: ^22.10.3
-        version: 22.10.3
+        specifier: ^22.10.4
+        version: 22.10.4
       aws-cdk:
         specifier: ^2.173.4
         version: 2.173.4
@@ -213,7 +213,7 @@ importers:
         version: 7.2.1(eslint@9.17.0)
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.10.3)(typescript@5.7.2)
+        version: 10.9.2(@types/node@22.10.4)(typescript@5.7.2)
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -800,8 +800,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@types/aws-lambda@8.10.146':
-    resolution: {integrity: sha512-3BaDXYTh0e6UCJYL/jwV/3+GRslSc08toAiZSmleYtkAUyV5rtvdPYxrG/88uqvTuT6sb27WE9OS90ZNTIuQ0g==}
+  '@types/aws-lambda@8.10.147':
+    resolution: {integrity: sha512-nD0Z9fNIZcxYX5Mai2CTmFD7wX7UldCkW2ezCF8D1T5hdiLsnTWDGRpfRYntU6VjTdLQjOvyszru7I1c1oCQew==}
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -812,8 +812,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.10.3':
-    resolution: {integrity: sha512-DifAyw4BkrufCILvD3ucnuN8eydUfc/C1GlyrnI+LK6543w5/L3VeVgf05o3B4fqSXP1dKYLOZsKfutpxPzZrw==}
+  '@types/node@22.10.4':
+    resolution: {integrity: sha512-99l6wv4HEzBQhvaU/UGoeBoCK61SCROQaCCGyQSgX2tEQ3rKkNZ2S7CEWnS/4s1LV+8ODdK21UeyR1fHP2mXug==}
 
   '@types/react@19.0.2':
     resolution: {integrity: sha512-USU8ZI/xyKJwFTpjSVIrSeHBVAGagkHQKPNbxeWwql/vDmnTIBgx+TJnhFnj1NXgz8XfprU0egV2dROLGpsBEg==}
@@ -2767,7 +2767,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@types/aws-lambda@8.10.146': {}
+  '@types/aws-lambda@8.10.147': {}
 
   '@types/estree@1.0.6': {}
 
@@ -2775,7 +2775,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.10.3':
+  '@types/node@22.10.4':
     dependencies:
       undici-types: 6.20.0
 
@@ -4352,14 +4352,14 @@ snapshots:
     dependencies:
       typescript: 5.7.2
 
-  ts-node@10.9.2(@types/node@22.10.3)(typescript@5.7.2):
+  ts-node@10.9.2(@types/node@22.10.4)(typescript@5.7.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.10.3
+      '@types/node': 22.10.4
       acorn: 8.14.0
       acorn-walk: 8.3.4
       arg: 4.1.3
