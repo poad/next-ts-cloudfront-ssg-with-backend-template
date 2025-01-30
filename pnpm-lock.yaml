@@ -101,20 +101,20 @@ importers:
         version: 4.2.4
     devDependencies:
       '@stylistic/eslint-plugin':
-        specifier: ^3.0.0
-        version: 3.0.0(eslint@9.19.0)(typescript@5.7.3)
+        specifier: ^3.0.1
+        version: 3.0.1(eslint@9.19.0)(typescript@5.7.3)
       '@stylistic/eslint-plugin-js':
-        specifier: ^3.0.0
-        version: 3.0.0(eslint@9.19.0)
+        specifier: ^3.0.1
+        version: 3.0.1(eslint@9.19.0)
       '@stylistic/eslint-plugin-jsx':
-        specifier: ^3.0.0
-        version: 3.0.0(eslint@9.19.0)
+        specifier: ^3.0.1
+        version: 3.0.1(eslint@9.19.0)
       '@stylistic/eslint-plugin-plus':
-        specifier: ^3.0.0
-        version: 3.0.0(eslint@9.19.0)
+        specifier: ^3.0.1
+        version: 3.0.1(eslint@9.19.0)
       '@stylistic/eslint-plugin-ts':
-        specifier: ^3.0.0
-        version: 3.0.0(eslint@9.19.0)(typescript@5.7.3)
+        specifier: ^3.0.1
+        version: 3.0.1(eslint@9.19.0)(typescript@5.7.3)
       '@types/node':
         specifier: ^22.12.0
         version: 22.12.0
@@ -763,8 +763,14 @@ packages:
     peerDependencies:
       eslint: '>=8.40.0'
 
-  '@stylistic/eslint-plugin-jsx@3.0.0':
-    resolution: {integrity: sha512-dvSvWB6bD8bQr0SEnPVnUj+FQC3NLj3VErXPV4cVcs6eJ5INWJ5yUGGqx6q8JR2Qt6tFeBeOlJ2pDWdurcfZ0Q==}
+  '@stylistic/eslint-plugin-js@3.0.1':
+    resolution: {integrity: sha512-hjp6BKXSUdlY4l20pDb0EjIB5PtQDGihk2EUKCjJ5gaRVfcmMMkaIyVd/yK3oH7OLxWWBxJ8qSSo+zEdkmpnYA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: '>=8.40.0'
+
+  '@stylistic/eslint-plugin-jsx@3.0.1':
+    resolution: {integrity: sha512-TYOtKJBVlHq3qVJKTybaj8QwPbYp71bSPRc43e/I+MlYjcsurbG4a39AJQ8H3DO5R8h+zrIhbpDvQiRHK5nA1g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -774,14 +780,31 @@ packages:
     peerDependencies:
       eslint: '*'
 
+  '@stylistic/eslint-plugin-plus@3.0.1':
+    resolution: {integrity: sha512-ttMbm2AeRbepViUzdDQqK4IDdsLNXTQZagNl2jr+pUBt9baMSvivMaOo4tdgQjkqUpPeUlBh3lGS8UjWZT47Jw==}
+    peerDependencies:
+      eslint: '*'
+
   '@stylistic/eslint-plugin-ts@3.0.0':
     resolution: {integrity: sha512-wFMYXa3UKRwqxRK8lhlMlJ0XyuBEd/ElFygNHQR6qJ6pVnaAZk3mQ94RMN0XuXb9sCsQH4xXLpLbH7Svw84P4Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
 
+  '@stylistic/eslint-plugin-ts@3.0.1':
+    resolution: {integrity: sha512-fBPKvYhp3KPlww9lZVe2htMwQZ/uh1v1Een6G2jnRpHWoQZfZ/qIhhWge7ovBtnK0z9QBa/DhBaBqcm7ZcLYKw==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: '>=8.40.0'
+
   '@stylistic/eslint-plugin@3.0.0':
     resolution: {integrity: sha512-9GJI6iBtGjOqSsyCKUvE6Vn7qDT52hbQaoq/SwxH6A1bciymZfvBfHIIrD3E7Koi2sjzOa/MNQ2XOguHtVJOyw==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: '>=8.40.0'
+
+  '@stylistic/eslint-plugin@3.0.1':
+    resolution: {integrity: sha512-rQ3tcT5N2cynofJfbjUsnL4seoewTaOVBLyUEwtNldo7iNMPo3h/GUQk+Cl3iHEWwRxjq2wuH6q0FufQrbVL1A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
@@ -1074,6 +1097,9 @@ packages:
   caniuse-lite@1.0.30001695:
     resolution: {integrity: sha512-vHyLade6wTgI2u1ec3WQBxv+2BrTERV28UXQu9LO6lZ9pYeMk34vjXFLOxo1A4UBA8XTL4njRQZdno/yYaSmWw==}
 
+  caniuse-lite@1.0.30001696:
+    resolution: {integrity: sha512-pDCPkvzfa39ehJtJ+OwGT/2yvT2SbjfHhiIW2LWOAcMQ7BzwxT/XuyUp4OTOd0XFWA6BKw0JalnBHgSi5DGJBQ==}
+
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
@@ -1179,8 +1205,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.88:
-    resolution: {integrity: sha512-K3C2qf1o+bGzbilTDCTBhTQcMS9KW60yTAaTeeXsfvQuTDDwlokLam/AdqlqcSy9u4UainDgsHV23ksXAOgamw==}
+  electron-to-chromium@1.5.89:
+    resolution: {integrity: sha512-okLMJSmbI+XHr8aG+wCK+VPH+d38sHMED6/q1CTsCNkqfdOZL3k2ThWnh44HL6bJKj9cabPCSVLDv9ynsIm8qg==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2775,7 +2801,13 @@ snapshots:
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
 
-  '@stylistic/eslint-plugin-jsx@3.0.0(eslint@9.19.0)':
+  '@stylistic/eslint-plugin-js@3.0.1(eslint@9.19.0)':
+    dependencies:
+      eslint: 9.19.0
+      eslint-visitor-keys: 4.2.0
+      espree: 10.3.0
+
+  '@stylistic/eslint-plugin-jsx@3.0.1(eslint@9.19.0)':
     dependencies:
       eslint: 9.19.0
       eslint-visitor-keys: 4.2.0
@@ -2784,6 +2816,12 @@ snapshots:
       picomatch: 4.0.2
 
   '@stylistic/eslint-plugin-plus@3.0.0(eslint@9.19.0)':
+    dependencies:
+      eslint: 9.19.0
+      eslint-visitor-keys: 4.2.0
+      espree: 10.3.0
+
+  '@stylistic/eslint-plugin-plus@3.0.1(eslint@9.19.0)':
     dependencies:
       eslint: 9.19.0
       eslint-visitor-keys: 4.2.0
@@ -2799,9 +2837,31 @@ snapshots:
       - supports-color
       - typescript
 
+  '@stylistic/eslint-plugin-ts@3.0.1(eslint@9.19.0)(typescript@5.7.3)':
+    dependencies:
+      '@typescript-eslint/utils': 8.22.0(eslint@9.19.0)(typescript@5.7.3)
+      eslint: 9.19.0
+      eslint-visitor-keys: 4.2.0
+      espree: 10.3.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
   '@stylistic/eslint-plugin@3.0.0(eslint@9.19.0)(typescript@5.7.3)':
     dependencies:
       '@typescript-eslint/utils': 8.13.0(eslint@9.19.0)(typescript@5.7.3)
+      eslint: 9.19.0
+      eslint-visitor-keys: 4.2.0
+      espree: 10.3.0
+      estraverse: 5.3.0
+      picomatch: 4.0.2
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+
+  '@stylistic/eslint-plugin@3.0.1(eslint@9.19.0)(typescript@5.7.3)':
+    dependencies:
+      '@typescript-eslint/utils': 8.22.0(eslint@9.19.0)(typescript@5.7.3)
       eslint: 9.19.0
       eslint-visitor-keys: 4.2.0
       espree: 10.3.0
@@ -3120,8 +3180,8 @@ snapshots:
 
   browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001695
-      electron-to-chromium: 1.5.88
+      caniuse-lite: 1.0.30001696
+      electron-to-chromium: 1.5.89
       node-releases: 2.0.19
       update-browserslist-db: 1.1.2(browserslist@4.24.4)
 
@@ -3157,6 +3217,8 @@ snapshots:
   callsites@3.1.0: {}
 
   caniuse-lite@1.0.30001695: {}
+
+  caniuse-lite@1.0.30001696: {}
 
   chalk@4.1.2:
     dependencies:
@@ -3260,7 +3322,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.88: {}
+  electron-to-chromium@1.5.89: {}
 
   emoji-regex@8.0.0: {}
 
