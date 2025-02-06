@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
+    "module": "esnext",
     "lib": [
       "esnext"
     ],
     "declaration": true,
+    "moduleResolution": "node",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -25,6 +26,7 @@
   },
   "exclude": [
     "node_modules",
-    "cdk.out"
+    "cdk.out",
+    "eslint.config.js"
   ]
 }

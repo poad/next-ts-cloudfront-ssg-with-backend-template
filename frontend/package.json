@@ -8,8 +8,8 @@
     "build": "next build",
     "export": "next build",
     "start": "next start",
-    "lint": "eslint -c eslint.config.mjs './src/**/*.{ts,tsx}' && pnpm -r lint",
-    "lint-fix": "eslint -c eslint.config.mjs --fix './src/**/*.{ts,tsx}' && pnpm -r lint-fix",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint-fix": "eslint --fix './src/**/*.{ts,tsx}'",
     "clean": "rimraf build",
     "pretest": "pnpm build",
     "prebuild": "pnpm lint",
@@ -22,6 +22,9 @@
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/js": "^9.19.0",
+    "@next/eslint-plugin-next": "^15.1.6",
     "@stylistic/eslint-plugin": "^3.0.1",
     "@stylistic/eslint-plugin-js": "^3.0.1",
     "@stylistic/eslint-plugin-jsx": "^3.0.1",

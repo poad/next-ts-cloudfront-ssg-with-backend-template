@@ -1,6 +1,7 @@
 {
   "name": "@next-ts-cloudfront-ssg-with-backend-template/cdk",
   "version": "0.0.1",
+  "type": "module",
   "bin": {
     "cognito": "bin/cloudfront-s3-cdn.js"
   },
@@ -8,18 +9,19 @@
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
-    "lint": "eslint -c eslint.config.mjs './{bin,lib}/**/*.ts'",
-    "lint-fix": "eslint -c eslint.config.mjs --fix './{bin,lib}/**/*.ts'",
+    "lint": "eslint './{bin,lib}/**/*.ts'",
+    "lint-fix": "eslint --fix './{bin,lib}/**/*.ts'",
     "clean": "rimraf build",
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
+    "@eslint/js": "^9.19.0",
     "@stylistic/eslint-plugin": "^3.0.1",
     "@stylistic/eslint-plugin-js": "^3.0.1",
     "@stylistic/eslint-plugin-plus": "^3.0.1",
     "@stylistic/eslint-plugin-ts": "^3.0.1",
     "@types/node": "^22.13.1",
-    "aws-cdk": "^2.177.0",
+    "aws-cdk": "^2.178.0",
     "eslint": "^9.19.0",
     "eslint-config-import": "^0.13.0",
     "eslint-import-resolver-typescript": "^3.7.0",
@@ -31,7 +33,7 @@
     "typescript-eslint": "^8.23.0"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.177.0",
+    "aws-cdk-lib": "^2.178.0",
     "constructs": "^10.4.2",
     "esbuild": "^0.24.2",
     "source-map-support": "^0.5.21"

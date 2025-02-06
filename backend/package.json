@@ -9,19 +9,20 @@
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
-    "lint": "eslint -c eslint.config.mjs './{bin,lib,lambda}/**/*.ts'",
-    "lint-fix": "eslint -c eslint.config.mjs --fix './{bin,lib,lambda}/**/*.ts'",
+    "lint": "eslint './{bin,lib,lambda}/**/*.ts'",
+    "lint-fix": "eslint --fix './{bin,lib,lambda}/**/*.ts'",
     "clean": "rimraf build",
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
+    "@eslint/js": "^9.19.0",
     "@stylistic/eslint-plugin": "^3.0.1",
     "@stylistic/eslint-plugin-js": "^3.0.1",
     "@stylistic/eslint-plugin-plus": "^3.0.1",
     "@stylistic/eslint-plugin-ts": "^3.0.1",
     "@types/aws-lambda": "^8.10.147",
     "@types/node": "^22.13.1",
-    "aws-cdk": "^2.177.0",
+    "aws-cdk": "^2.178.0",
     "esbuild": "^0.24.2",
     "eslint": "^9.19.0",
     "eslint-config-import": "^0.13.0",
@@ -34,7 +35,7 @@
     "typescript-eslint": "^8.23.0"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.177.0",
+    "aws-cdk-lib": "^2.178.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.4.2",
     "graphql": "^16.10.0",
