@@ -35,7 +35,7 @@
     "typescript-eslint": "^8.24.1"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.179.0",
+    "aws-cdk-lib": "^2.180.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.4.2",
     "graphql": "^16.10.0",
