@@ -16,7 +16,7 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "next": "^15.2.1",
+    "next": "^15.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "web-vitals": "^4.2.4"
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.0",
     "@eslint/js": "^9.22.0",
-    "@next/eslint-plugin-next": "^15.2.1",
+    "@next/eslint-plugin-next": "^15.2.2",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@stylistic/eslint-plugin-js": "^4.2.0",
     "@stylistic/eslint-plugin-jsx": "^4.2.0",
@@ -34,7 +34,7 @@
     "@types/react": "^19.0.10",
     "eslint": "^9.22.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^15.2.1",
+    "eslint-config-next": "^15.2.2",
     "eslint-import-resolver-typescript": "^3.8.4",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
