@@ -26,7 +26,7 @@
     "esbuild": "^0.25.1",
     "eslint": "^9.22.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-import-resolver-typescript": "^3.8.5",
+    "eslint-import-resolver-typescript": "^3.8.6",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
@@ -35,7 +35,7 @@
     "typescript-eslint": "^8.26.1"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.182.0",
+    "aws-cdk-lib": "^2.183.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.4.2",
     "graphql": "^16.10.0",
