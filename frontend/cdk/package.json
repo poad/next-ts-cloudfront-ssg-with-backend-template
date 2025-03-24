@@ -15,14 +15,14 @@
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
-    "@eslint/js": "^9.22.0",
+    "@eslint/js": "^9.23.0",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@stylistic/eslint-plugin-js": "^4.2.0",
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
     "@types/node": "^22.13.11",
     "aws-cdk": "^2.1005.0",
-    "eslint": "^9.22.0",
+    "eslint": "^9.23.0",
     "eslint-config-import": "^0.13.0",
     "eslint-import-resolver-typescript": "^4.2.2",
     "eslint-plugin-flowtype": "^8.0.3",
