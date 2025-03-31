@@ -23,7 +23,7 @@
     "@types/aws-lambda": "^8.10.148",
     "@types/node": "^22.13.14",
     "aws-cdk": "^2.1006.0",
-    "esbuild": "^0.25.1",
+    "esbuild": "^0.25.2",
     "eslint": "^9.23.0",
     "eslint-config-import": "^0.13.0",
     "eslint-import-resolver-typescript": "^4.3.1",
