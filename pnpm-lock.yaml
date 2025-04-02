@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       pnpm:
-        specifier: ^10.7.0
-        version: 10.7.0
+        specifier: ^10.7.1
+        version: 10.7.1
 
   backend:
     dependencies:
@@ -52,8 +52,8 @@ importers:
         specifier: ^8.10.148
         version: 8.10.148
       '@types/node':
-        specifier: ^22.13.16
-        version: 22.13.16
+        specifier: ^22.13.17
+        version: 22.13.17
       aws-cdk:
         specifier: ^2.1006.0
         version: 2.1006.0
@@ -80,7 +80,7 @@ importers:
         version: 7.2.1(eslint@9.23.0)
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.13.16)(typescript@5.8.2)
+        version: 10.9.2(@types/node@22.13.17)(typescript@5.8.2)
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -128,8 +128,8 @@ importers:
         specifier: ^4.2.0
         version: 4.2.0(eslint@9.23.0)(typescript@5.8.2)
       '@types/node':
-        specifier: ^22.13.16
-        version: 22.13.16
+        specifier: ^22.13.17
+        version: 22.13.17
       '@types/react':
         specifier: ^19.0.12
         version: 19.0.12
@@ -207,8 +207,8 @@ importers:
         specifier: ^4.2.0
         version: 4.2.0(eslint@9.23.0)(typescript@5.8.2)
       '@types/node':
-        specifier: ^22.13.16
-        version: 22.13.16
+        specifier: ^22.13.17
+        version: 22.13.17
       aws-cdk:
         specifier: ^2.1006.0
         version: 2.1006.0
@@ -232,7 +232,7 @@ importers:
         version: 7.2.1(eslint@9.23.0)
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.13.16)(typescript@5.8.2)
+        version: 10.9.2(@types/node@22.13.17)(typescript@5.8.2)
       typescript:
         specifier: ^5.8.2
         version: 5.8.2
@@ -845,8 +845,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.13.16':
-    resolution: {integrity: sha512-15tM+qA4Ypml/N7kyRdvfRjBQT2RL461uF1Bldn06K0Nzn1lY3nAPgHlsVrJxdZ9WhZiW0Fmc1lOYMtDsAuB3w==}
+  '@types/node@22.13.17':
+    resolution: {integrity: sha512-nAJuQXoyPj04uLgu+obZcSmsfOenUg6DxPKogeUy6yNCFwWaj5sBF8/G/pNo8EtBJjAfSVgfIlugR/BCOleO+g==}
 
   '@types/react@19.0.12':
     resolution: {integrity: sha512-V6Ar115dBDrjbtXSrS+/Oruobc+qVbbUxDFC1RSbRqLt5SYvxxyIDrSC85RWml54g+jfNeEMZhEj7wW07ONQhA==}
@@ -2018,8 +2018,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.7.0:
-    resolution: {integrity: sha512-a4Za1LYqHZhCth1nSjk5A7hx2SRJVPZSuIQsK1U8chdrJ49kxGPlLUD/+KujhcI1yMns9cx95P14uLttSWM6tg==}
+  pnpm@10.7.1:
+    resolution: {integrity: sha512-LZLIa3ko3IKE9TSU+0IB+YPaZfD7Tw1Auq+lz2KPox2uPllo8SRm8X336XMQ4w80OmSLrqG5s1BoXa+v/99YCA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -2948,7 +2948,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.13.16':
+  '@types/node@22.13.17':
     dependencies:
       undici-types: 6.20.0
 
@@ -4377,7 +4377,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.7.0: {}
+  pnpm@10.7.1: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -4693,14 +4693,14 @@ snapshots:
     dependencies:
       typescript: 5.8.2
 
-  ts-node@10.9.2(@types/node@22.13.16)(typescript@5.8.2):
+  ts-node@10.9.2(@types/node@22.13.17)(typescript@5.8.2):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.13.16
+      '@types/node': 22.13.17
       acorn: 8.14.1
       acorn-walk: 8.3.4
       arg: 4.1.3
