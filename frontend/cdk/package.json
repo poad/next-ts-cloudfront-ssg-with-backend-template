@@ -15,25 +15,25 @@
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
-    "@eslint/js": "^9.23.0",
+    "@eslint/js": "^9.24.0",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@stylistic/eslint-plugin-js": "^4.2.0",
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
     "@types/node": "^22.14.0",
     "aws-cdk": "^2.1007.0",
-    "eslint": "^9.23.0",
+    "eslint": "^9.24.0",
     "eslint-config-import": "^0.13.0",
     "eslint-import-resolver-typescript": "^4.3.1",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2",
+    "typescript": "^5.8.3",
     "typescript-eslint": "^8.29.0"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.187.0",
+    "aws-cdk-lib": "^2.188.0",
     "constructs": "^10.4.2",
     "esbuild": "^0.25.2",
     "source-map-support": "^0.5.21"
