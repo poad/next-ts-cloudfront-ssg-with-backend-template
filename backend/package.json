@@ -20,7 +20,7 @@
     "@stylistic/eslint-plugin-js": "^4.2.0",
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
-    "@types/aws-lambda": "^8.10.148",
+    "@types/aws-lambda": "^8.10.149",
     "@types/node": "^22.14.0",
     "aws-cdk": "^2.1007.0",
     "esbuild": "^0.25.2",
@@ -35,7 +35,7 @@
     "typescript-eslint": "^8.29.1"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.188.0",
+    "aws-cdk-lib": "^2.189.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.4.2",
     "graphql": "^16.10.0",
