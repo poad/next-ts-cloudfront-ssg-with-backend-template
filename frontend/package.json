@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "export": "next build",
     "start": "next start",
@@ -16,25 +16,25 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "next": "^15.3.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "next": "15.3.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "web-vitals": "^4.2.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.24.0",
-    "@next/eslint-plugin-next": "^15.3.0",
+    "@next/eslint-plugin-next": "15.3.0",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@stylistic/eslint-plugin-js": "^4.2.0",
     "@stylistic/eslint-plugin-jsx": "^4.2.0",
     "@stylistic/eslint-plugin-plus": "^4.2.0",
     "@stylistic/eslint-plugin-ts": "^4.2.0",
     "@types/node": "^22.14.0",
-    "@types/react": "^19.1.0",
+    "@types/react": "19.1.0",
     "eslint": "^9.24.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^15.3.0",
+    "eslint-config-next": "15.3.0",
     "eslint-import-resolver-typescript": "^4.3.2",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
@@ -51,5 +51,10 @@
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.6"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "19.1.0"
+    }
   }
 }
