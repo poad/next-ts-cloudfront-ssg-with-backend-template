@@ -17,8 +17,8 @@
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.6"
   },
-  "packageManager": "pnpm@10.8.0",
+  "packageManager": "pnpm@10.8.1",
   "devDependencies": {
-    "pnpm": "^10.8.0"
+    "pnpm": "^10.8.1"
   }
 }
